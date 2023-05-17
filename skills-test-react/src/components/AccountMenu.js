@@ -79,11 +79,11 @@ export default function AccountMenu({  }) {
         transformOrigin={{ horizontal: 'right', vertical: 'top' }}
         anchorOrigin={{ horizontal: 'right', vertical: 'bottom' }}
       >
-        <MenuItem>
-          <Link to="/todo">
-            <Avatar /> Open Form
-          </Link>
-        </MenuItem>
+        <Link to="/todo">
+          <MenuItem>
+              <Avatar /> Open Form
+          </MenuItem>
+        </Link>
       </Menu>
     </React.Fragment>
   );
